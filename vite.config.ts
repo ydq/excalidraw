@@ -15,6 +15,7 @@ export default defineConfig({
     // open the browser
     open: true,
   },
+  base:"",
   build: {
     outDir: "build",
     rollupOptions: {
